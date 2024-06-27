@@ -1,11 +1,8 @@
-# Obsidian Notes
+# Pinball@NX
+Here you will find some Pinball documentation sooooon!
 
-Publish your public notes with MkDocs
+Chapters will be linked like this [Note 1](_Personal/Projekte/pinball-at-nx/docs/Topic%201/Note%201.md) in `Topic 1`.
 
-## Hello World!
+![600](_Personal/Projekte/pinball-at-nx/docs/_attachments/index_-20240627.png)
 
-The `index.md` in the `/docs` folder is the homepage you see here.
 
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`

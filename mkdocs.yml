@@ -4,7 +4,7 @@ theme:
     name: 'material'
     icon:
       logo: material/youtube-gaming
-    favicon: _attachments/nexplore_pinball_simple.jpg
+    favicon: _attachments/favicon.jpg
 
     palette:
 

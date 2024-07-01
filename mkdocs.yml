@@ -33,6 +33,9 @@ copyright: Copyright &copy; 2024 Eli Rickert, Nexplore AG
 
 repo_url: https://github.com/elirickert/pinball-at-nx
 
+extra:
+  generator: false
+
 # Extensions
 markdown_extensions:
   - footnotes

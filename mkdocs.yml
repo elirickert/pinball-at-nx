@@ -5,6 +5,8 @@ theme:
     icon:
       logo: material/youtube-gaming
     favicon: _attachments/favicon.jpg
+    features:
+      - navigation.tabs
 
     palette:
 

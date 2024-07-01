@@ -29,7 +29,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-copyright: Copyright &copy; 2024 Eli Rickert, Nexplore AG
+# copyright: Copyright &copy; 2024 Eli Rickert, Nexplore AG
 
 repo_url: https://github.com/elirickert/pinball-at-nx
 

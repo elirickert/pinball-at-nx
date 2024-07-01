@@ -7,6 +7,7 @@ theme:
     favicon: _attachments/favicon.jpg
     features:
       - navigation.sections
+      - navigation.footer
 
     palette:
 
@@ -27,6 +28,10 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+copyright: Copyright &copy; 2024 Eli Rickert, Nexplore AG
+
+repo_url: https://github.com/elirickert/pinball-at-nx
 
 # Extensions
 markdown_extensions:

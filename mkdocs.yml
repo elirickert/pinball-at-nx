@@ -4,7 +4,7 @@ theme:
     name: 'material'
     icon:
       logo: material/youtube-gaming
-    favicon: _attachments/favicon.jpg
+    favicon: _attachments/favicon.png
     features:
       - navigation.sections
       - navigation.footer

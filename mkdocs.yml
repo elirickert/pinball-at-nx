@@ -14,8 +14,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: orange
-      accent: indigo
+      primary: grey
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -23,8 +23,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: orange
-      accent: indigo
+      primary: grey
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

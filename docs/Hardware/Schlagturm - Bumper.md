@@ -1,3 +1,6 @@
+## How to
+![[_attachments/Schlagturm - Bumper_-20240702.png]] 
+## Teile
 - Rebuild Kit(s)
 	![[_attachments/Schlagturm - Bumper_-20240701.png]] ![[_attachments/Schlagturm - Bumper_-20240701-1.png]] 
 - Mylar Protektor

@@ -7,14 +7,14 @@ theme:
     favicon: _attachments/favicon.png
     features:
       - navigation.sections
-      - navigation.footer
+      #- navigation.footer
 
     palette:
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: grey
+      primary: orange
       accent: indigo
       toggle:
         icon: material/brightness-7
@@ -23,7 +23,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: grey
+      primary: orange
       accent: indigo
       toggle:
         icon: material/brightness-4
@@ -33,8 +33,8 @@ theme:
 
 repo_url: https://github.com/elirickert/pinball-at-nx
 
-extra:
-  generator: false
+#extra:
+#  generator: false
 
 # Extensions
 markdown_extensions:

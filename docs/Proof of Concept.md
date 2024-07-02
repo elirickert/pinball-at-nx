@@ -8,8 +8,12 @@
 		- [CobraPin - Pinball Makers](https://pinballmakers.com/wiki/index.php?title=CobraPin) 
 	- [Make a Pinball Machine : 24 Steps (with Pictures) - Instructables](https://www.instructables.com/Making-a-Pinball-Machine/) 
 - Other
+	- [Zenfolio | Fun With Pinball | Flippers, Coils and Power](https://www.funwithpinball.com/learn/flippers-coils-and-power) 
+	- [Pinscape Build Guide (mjrnet.org)](http://mjrnet.org/pinscape/BuildGuideV2/BuildGuide.php?sid=title) 
 	- [How to Build a Pinball Machine | pinball for the sake of pinball (wordpress.com)](https://howtobuildapinballmachine.wordpress.com/) 
 	- [How to build your own pinball machine in 4,761 easy steps (inverse.com)](https://www.inverse.com/input/culture/homebrew-pinball-expo-2021) 
+## Hardware Shops
+- [Flipperservice - PINBALL PARTS - Ball Williams Schlagturmspule (flipperteile.com)](https://flipperteile.com/en/pop-bumper-parts/bally-williams-bumper-coil.html) 
 ## Plan and Test Parts
 - Raspberry Pi for handling overall function
 - Controller Programming: Usage of [[Controller Programming/Mission Pinball Framework|Mission Pinball Framework]] for programming the controller-raspberry interface

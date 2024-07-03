@@ -2,6 +2,7 @@ site_name: Pinball@NX
 
 theme:
     name: 'material'
+    custom_dir: docs/.overrides
     icon:
       logo: material/youtube-gaming
     favicon: _attachments/favicon.png
@@ -15,7 +16,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: grey
-      accent: orange
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -24,7 +25,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: grey
-      accent: orange
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

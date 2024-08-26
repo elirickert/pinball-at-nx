@@ -1,9 +1,6 @@
 ---
 comments: "true"
 ---
-## Shipping Tracker
-- [DHL](http://nolp.dhl.de/nextt-online-public/set_identcodes.do?lang=de&idc=00340434333170733387&rfn=&extendedSearch=true) → [Suche (dhl.de)](https://www.dhl.de/de/privatkunden/suche.html?q=00340434333170733387&piececode=00340434333170733387) 
-- [FedEx](https://mandrillapp.com/track/click/30103740/track.goshippo.com?p=eyJzIjoiWkZZckVlQ2xKemRzdjBuNy04cXZkQWJJMzRJIiwidiI6MSwicCI6IntcInVcIjozMDEwMzc0MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3RyYWNrLmdvc2hpcHBvLmNvbVxcXC90cmFja2luZ1xcXC9kMjUzZWQ4NTM0NTc0N2U3YWMyMDE2OTRlNTA4YmNkYVxcXC9mZWRleFxcXC8yNzY1MDA2NzcxMTVcIixcImlkXCI6XCIzYjgxZDg4YzhjNmY0N2Q1ODdjNmJmYTllMTNmNmVjYVwiLFwidXJsX2lkc1wiOltcIjQ2NGFlYjg1OTNmYzcwMjI1OGRlZmVmYTJmNDNiNTdhNjRhNGM0ZWNcIl19In0) 
 ## Documenation Pages
 - Main Ideas
 	- [Pinball Makers](https://pinballmakers.com/wiki/index.php?title=Main_Page) 
@@ -16,18 +13,21 @@ comments: "true"
 	- [How to Build a Pinball Machine | pinball for the sake of pinball (wordpress.com)](https://howtobuildapinballmachine.wordpress.com/) 
 	- [How to build your own pinball machine in 4,761 easy steps (inverse.com)](https://www.inverse.com/input/culture/homebrew-pinball-expo-2021) 
 ## Hardware Shops
-- [Flipperservice - PINBALL PARTS - Ball Williams Schlagturmspule (flipperteile.com)](https://flipperteile.com/en/pop-bumper-parts/bally-williams-bumper-coil.html) 
+- [Flipperservice - PINBALL PARTS - Ball Williams Schlagturmspule (flipperteile.com)](https://flipperteile.com/en/pop-bumper-parts/bally-williams-bumper-coil.html) (some detail parts are missing, good sets)
+- [meinflipper.ch GmbH (meinflippershop.ch)](https://www.meinflippershop.ch/) (rather expensive for small orders → shipping 12 + small amount charge 12)
+- [CobraPin Pinball Controller | shops (pinside.com)](https://pinside.com/pinball/shops/shop/1254-cobra-amusements/05162-cobrapin-pinball-controller) 
+- [Marco Specialties Pinball Parts](https://www.marcospecialties.com/control/main) (biiiig selection, shipping prices okay → 12 for small order)
 ## Plan and Test Parts
 - Raspberry Pi for handling overall function
-- Controller Programming: Usage of [[Controller Programming/Mission Pinball Framework|Mission Pinball Framework]] for programming the controller-raspberry interface
-- Controller: [[Hardware/CobraPin Pinball Controller|CobraPin Pinball Controller]] 
-- [[Hardware/Werkzeuge, Reinigung|Werkzeuge, Reinigung]] 
-- [[Hardware/Abschusseinheit|Abschusseinheit]]
-- [[Hardware/Schlagturm - Bumper|Schlagturm - Bumper]] 
-- [[Flipperarme - Flippermechanik]] 
-- [[Hardware/Lampen|Lampen]] 
+- Controller Programming: Usage of [Mission Pinball Framework](Controller%20Programming/Mission%20Pinball%20Framework.md) for programming the controller-raspberry interface
+- Controller: [CobraPin Pinball Controller](Hardware/CobraPin%20Pinball%20Controller.md) 
+- [Werkzeuge, Reinigung](Hardware/Werkzeuge,%20Reinigung.md) 
+- [Abschusseinheit](Hardware/Abschusseinheit.md)
+- [Schlagturm - Bumper](Hardware/Schlagturm%20-%20Bumper.md) 
+- [Flipperarme - Flippermechanik](Flipperarme%20-%20Flippermechanik.md) 
+- [Lampen](Hardware/Lampen.md) 
 - Flipperknopf
-	![[_attachments/Proof of Concept_-20240701-8.png]] 
+	![](_attachments/Proof%20of%20Concept_-20240701-8.png) 
 - Flipperkugel(n)
-	![[_attachments/Proof of Concept_-20240701-9.png]] 
+	![](_attachments/Proof%20of%20Concept_-20240701-9.png) 
 

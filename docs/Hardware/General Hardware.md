@@ -1,10 +1,10 @@
 
-| Name EN       | Name DE         | Image                                                                                                       |
-| ------------- | --------------- | ----------------------------------------------------------------------------------------------------------- |
-| Flipperbutton | Flipperknopf    | ![image1](_Personal/Projekte/pinball-at-nx/docs/Hardware/_attachments/Proof%20of%20Concept_-20240701-8.png) |
-| Ball          | Flipperkugel(n) | ![image2](_Personal/Projekte/pinball-at-nx/docs/Hardware/_attachments/Proof%20of%20Concept_-20240701-9.png) |
-|               |                 |                                                                                                             |
-|               |                 |                                                                                                             |
+| Name EN       | Name DE         | Image                                                        |
+| ------------- | --------------- | ------------------------------------------------------------ |
+| Flipperbutton | Flipperknopf    | ![image1](_attachments/Proof%20of%20Concept_-20240701-8.png) |
+| Ball          | Flipperkugel(n) | ![image2](_attachments/Proof%20of%20Concept_-20240701-9.png) |
+|               |                 |                                                              |
+|               |                 |                                                              |
 
 <div style="display: table; width: 100%;">
 	<div style="display: table-row;"> 

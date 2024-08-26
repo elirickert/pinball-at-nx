@@ -19,15 +19,11 @@ comments: "true"
 - [Marco Specialties Pinball Parts](https://www.marcospecialties.com/control/main) (biiiig selection, shipping prices okay → 12 for small order)
 ## Plan and Test Parts
 - Raspberry Pi for handling overall function
-- Controller Programming: Usage of [Mission Pinball Framework](Controller%20Programming/Mission%20Pinball%20Framework.md) for programming the controller-raspberry interface
-- Controller: [CobraPin Pinball Controller](Hardware/CobraPin%20Pinball%20Controller.md) 
-- [Werkzeuge, Reinigung](Hardware/Werkzeuge,%20Reinigung.md) 
-- [Abschusseinheit](Hardware/Abschusseinheit.md)
-- [Schlagturm - Bumper](Hardware/Schlagturm%20-%20Bumper.md) 
-- [Flipperarme - Flippermechanik](Flipperarme%20-%20Flippermechanik.md) 
-- [Lampen](Hardware/Lampen.md) 
-- Flipperknopf
-	![](_attachments/Proof%20of%20Concept_-20240701-8.png) 
-- Flipperkugel(n)
-	![](_attachments/Proof%20of%20Concept_-20240701-9.png) 
-
+- Controller Programming: Usage of [[_Personal/Projekte/pinball-at-nx/docs/Controller Programming/Mission Pinball Framework|Mission Pinball Framework]]  for programming the controller-raspberry interface
+- Controller: [[_Personal/Projekte/pinball-at-nx/docs/Hardware/CobraPin Pinball Controller|CobraPin Pinball Controller]] 
+- [[_Personal/Projekte/pinball-at-nx/docs/Hardware/Werkzeuge, Reinigung|Werkzeuge, Reinigung]] 
+- [[_Personal/Projekte/pinball-at-nx/docs/Hardware/Abschusseinheit|Abschusseinheit]] 
+- [[_Personal/Projekte/pinball-at-nx/docs/Hardware/Schlagturm - Bumper|Schlagturm - Bumper]] 
+- [[_Personal/Projekte/pinball-at-nx/docs/Hardware/Flipperarme - Flippermechanik|Flipperarme - Flippermechanik]] 
+- [[_Personal/Projekte/pinball-at-nx/docs/Hardware/Lampen|Lampen]] 
+- [[General Hardware]] 

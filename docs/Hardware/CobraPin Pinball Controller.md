@@ -1,6 +1,6 @@
--  Controller [CobraPin Pinball Controller powered by OPP - The Mission Pinball Framework](https://missionpinball.org/hardware/opp/cobrapin/) 
-	![](_attachments/Proof%20of%20Concept_-20240701-1.png) 
-- CobraPin Satellite board
-	![](_attachments/Proof%20of%20Concept_-20240701-3.png) 
-- CobraPin Processor Boards
-	![](_attachments/Proof%20of%20Concept_-20240701-4.png) 
+| Name EN                                                                                                    | Name DE | Image                                                                                                  | Notes |
+| :--------------------------------------------------------------------------------------------------------- | :------ | :----------------------------------------------------------------------------------------------------- | ----- |
+| Controller [CobraPin Pinball Controller powered by OPP](https://missionpinball.org/hardware/opp/cobrapin/) |         | ![[_Personal/Projekte/pinball-at-nx/docs/Hardware/_attachments/Proof of Concept_-20240701-1.png\|300]] |       |
+| CobraPin Satellite board                                                                                   |         | ![\|300](_attachments/Proof%20of%20Concept_-20240701-3.png)                                            |       |
+| CobraPin Processor Boards                                                                                  |         | ![300](_attachments/Proof%20of%20Concept_-20240701-4.png)                                              |       |
+

@@ -10,6 +10,9 @@ For using in an already set-up Obsidian vault:
 3. Clone into this directory directly: `{shell icon} git clone git@github.com:elirickert/pinball-at-nx.git .` 
 4. Exclude directory from obsidian sync (sync via git vcs)
 5. For enhanced usability exclude source folder from obsidian folder view
+### MkDocs
+- documentation general: [Reference - Material for MkDocs (squidfunk.github.io)](https://squidfunk.github.io/mkdocs-material/reference/) 
+- installing new libraries: add to yml under `.github/workflows/ci.yml` 
 ## Contribution
 - Github Page: Contribution via PR's in docs-directory. 
 - Source Code: Contribution via PR's in source-directory. 

@@ -2,7 +2,7 @@
 General Jet Bumper instructions
 ![500](_attachments/Schlagturm%20-%20Bumper_-20240702.png) 
 
-Williams Jet Bumper Instructions: [B-7894 - Jet bumper assembly Williams (marcospecialties.com)](https://www.marcospecialties.com/pinball-parts/B-7894): 
+Williams Jet Bumper Instructions ([marcospecialties.com](https://www.marcospecialties.com/pinball-parts/B-7894))  
 ![[_attachments/Schlagturm - Bumper_attachment-20240814-175753.png]] 
 ## Parts
 | Name EN        | Name DE                      | Image                                                                                                             | Notes                                                                                                                                                                                                                                                                              |

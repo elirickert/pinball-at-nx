@@ -27,3 +27,4 @@ comments: "true"
 - [[_Personal/Projekte/pinball-at-nx/docs/Hardware/Flipperarme - Flippermechanik|Flipperarme - Flippermechanik]] 
 - [[_Personal/Projekte/pinball-at-nx/docs/Hardware/Lampen|Lampen]] 
 - [[General Hardware]] 
+- [[Display]] 

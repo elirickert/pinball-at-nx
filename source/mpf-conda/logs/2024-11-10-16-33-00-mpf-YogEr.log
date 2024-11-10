@@ -1,0 +1,33 @@
+2024-11-10 16:33:00,076 : INFO : root : Loading config.
+2024-11-10 16:33:00,078 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-10 16:33:00,078 : INFO : ConfigProcessor : Loading config from cache: C:\Users\eliri\AppData\Local\Temp\832545c8267d39f841337814b695fcbf.mpf_cache
+2024-11-10 16:33:00,141 : INFO : ConfigProcessor : Loading config from cache: C:\Users\eliri\AppData\Local\Temp\752f721450cdb51a7adcb1ccc9eded7a.mpf_cache
+2024-11-10 16:33:00,141 : INFO : ConfigProcessor : Loading config from cache: C:\Users\eliri\AppData\Local\Temp\d7fa13d75974d3198a20ad67f567c1d5.mpf_cache
+2024-11-10 16:33:00,142 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev5
+2024-11-10 16:33:00,142 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-11-10-16-33-00-mpf-YogEr.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\git\\pinball-at-nx\\source\\mpf-conda\\logs\\2024-11-10-16-33-00-mpf-YogEr.log'}
+2024-11-10 16:33:00,142 : INFO : Machine : MPF path: C:\Users\eliri\anaconda3\Lib\site-packages\mpf
+2024-11-10 16:33:00,142 : INFO : Machine : Machine path: C:\git\pinball-at-nx\source\mpf-conda
+2024-11-10 16:33:00,142 : INFO : Machine : Platform: win32
+2024-11-10 16:33:00,142 : INFO : Machine : Python executable location: C:\Users\eliri\anaconda3\python.exe
+2024-11-10 16:33:00,142 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2024-11-10 16:33:00,143 : INFO : Machine : Initializing MPF...
+2024-11-10 16:33:00,265 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,279 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,279 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,279 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,279 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,354 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,354 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,354 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,355 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,355 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,355 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\git\\pinball-at-nx\\source\\mpf-conda\\logs\\2024-11-10-16-33-00-mpf-YogEr.log', 'prev_value': None, 'change': True}
+2024-11-10 16:33:00,355 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-11-10 16:33:00,364 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-11-10 16:33:00,364 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-11-10 16:33:00,364 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-11-10 17:56:55,395 : INFO : Machine : Starting the main run loop with active modes: []
+2024-11-10 17:56:55,395 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2024-11-10 17:56:55,396 : INFO : Machine : Shutting down...
+2024-11-10 17:56:55,396 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-11-10 17:56:56,418 : INFO : root : MPF run loop ended.

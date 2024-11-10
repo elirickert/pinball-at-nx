@@ -1,0 +1,6 @@
+2024-11-10 16:27:12,791 : INFO : root : Loading config.
+2024-11-10 16:27:12,795 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-10 16:27:12,796 : WARNING : ConfigProcessor : Config file in cache changed: C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml
+2024-11-10 16:27:12,796 : INFO : ConfigProcessor : Loading config from file C:\Users\eliri\anaconda3\Lib\site-packages\mpf\mpfconfig.yaml.
+2024-11-10 16:27:12,802 : INFO : ConfigProcessor : Loading config: C:\Users\eliri\anaconda3\Lib\site-packages\mpf\mpfconfig.yaml
+2024-11-10 16:27:12,802 : INFO : ConfigProcessor : Loading config from file C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml.

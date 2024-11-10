@@ -1,0 +1,100 @@
+2024-11-10 16:27:54,284 : INFO : root : Loading config.
+2024-11-10 16:27:54,287 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-10 16:27:54,287 : WARNING : ConfigProcessor : Config file in cache changed: C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml
+2024-11-10 16:27:54,287 : INFO : ConfigProcessor : Loading config from file C:\Users\eliri\anaconda3\Lib\site-packages\mpf\mpfconfig.yaml.
+2024-11-10 16:27:54,293 : INFO : ConfigProcessor : Loading config: C:\Users\eliri\anaconda3\Lib\site-packages\mpf\mpfconfig.yaml
+2024-11-10 16:27:54,294 : INFO : ConfigProcessor : Loading config from file C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml.
+2024-11-10 16:27:54,300 : INFO : ConfigProcessor : Loading config: C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml
+2024-11-10 16:27:54,301 : INFO : ConfigProcessor : Config file cache created: C:\Users\eliri\AppData\Local\Temp\832545c8267d39f841337814b695fcbf.mpf_cache
+2024-11-10 16:27:54,350 : INFO : ConfigProcessor : Loading config from cache: C:\Users\eliri\AppData\Local\Temp\752f721450cdb51a7adcb1ccc9eded7a.mpf_cache
+2024-11-10 16:27:54,351 : INFO : ConfigProcessor : Loading config from cache: C:\Users\eliri\AppData\Local\Temp\d7fa13d75974d3198a20ad67f567c1d5.mpf_cache
+2024-11-10 16:27:54,351 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev5
+2024-11-10 16:27:54,351 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-11-10-16-27-54-mpf-YogEr.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\git\\pinball-at-nx\\source\\mpf-conda\\logs\\2024-11-10-16-27-54-mpf-YogEr.log'}
+2024-11-10 16:27:54,351 : INFO : Machine : MPF path: C:\Users\eliri\anaconda3\Lib\site-packages\mpf
+2024-11-10 16:27:54,351 : INFO : Machine : Machine path: C:\git\pinball-at-nx\source\mpf-conda
+2024-11-10 16:27:54,351 : INFO : Machine : Platform: win32
+2024-11-10 16:27:54,351 : INFO : Machine : Python executable location: C:\Users\eliri\anaconda3\python.exe
+2024-11-10 16:27:54,351 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2024-11-10 16:27:54,352 : INFO : Machine : Initializing MPF...
+2024-11-10 16:27:54,477 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,489 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,490 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,490 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,490 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,604 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,604 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,604 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,605 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,605 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,605 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\git\\pinball-at-nx\\source\\mpf-conda\\logs\\2024-11-10-16-27-54-mpf-YogEr.log', 'prev_value': None, 'change': True}
+2024-11-10 16:27:54,605 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-11-10 16:27:54,614 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\eliri\anaconda3\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\devices\switch.py", line 89, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 214, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry switches:s_left_flipper:playfield = "playfield" is not valid. Device "playfield" not found in "playfields:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2024-11-10 16:27:54,621 : INFO : Machine : Starting the main run loop with active modes: []
+2024-11-10 16:27:54,621 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2024-11-10 16:27:54,621 : INFO : Machine : Shutting down...
+2024-11-10 16:27:54,621 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-11-10 16:27:55,639 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\eliri\anaconda3\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\devices\switch.py", line 89, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 214, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry switches:s_left_flipper:playfield = "playfield" is not valid. Device "playfield" not found in "playfields:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2024-11-10 16:28:00,886 : INFO : root : MPF run loop ended.

@@ -1,0 +1,56 @@
+2024-11-10 18:59:08,114 : INFO : root : Loading config.
+2024-11-10 18:59:08,170 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\eliri\AppData\Local\Temp\config_spec.mpf_cache
+2024-11-10 18:59:08,171 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-10 18:59:08,171 : INFO : ConfigProcessor : Loading config from file C:\Users\eliri\anaconda3\envs\mpf\Lib\site-packages\mpf\mpfconfig.yaml.
+2024-11-10 18:59:08,178 : INFO : ConfigProcessor : Loading config: C:\Users\eliri\anaconda3\envs\mpf\Lib\site-packages\mpf\mpfconfig.yaml
+2024-11-10 18:59:08,178 : INFO : ConfigProcessor : Loading config from file C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml.
+2024-11-10 18:59:08,179 : INFO : ConfigProcessor : Loading config: C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml
+2024-11-10 18:59:08,180 : INFO : ConfigProcessor : Config file cache created: C:\Users\eliri\AppData\Local\Temp\0a4972a30340566b0ecd94eff034e5b4.mpf_cache
+2024-11-10 18:59:08,267 : INFO : ConfigProcessor : Loading config from file C:\Users\eliri\anaconda3\envs\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2024-11-10 18:59:08,268 : INFO : ConfigProcessor : Loading config: C:\Users\eliri\anaconda3\envs\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-11-10 18:59:08,269 : INFO : ConfigProcessor : Config file cache created: C:\Users\eliri\AppData\Local\Temp\c0b4924c0d3faf72a0581ee2dc2040a4.mpf_cache
+2024-11-10 18:59:08,269 : INFO : ConfigProcessor : Loading config from file C:\Users\eliri\anaconda3\envs\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2024-11-10 18:59:08,270 : INFO : ConfigProcessor : Loading config: C:\Users\eliri\anaconda3\envs\mpf\Lib\site-packages\mpf\modes\game\config\game.yaml
+2024-11-10 18:59:08,270 : INFO : ConfigProcessor : Config file cache created: C:\Users\eliri\AppData\Local\Temp\0d31bc8ad3169ac06d268def74cbaa15.mpf_cache
+2024-11-10 18:59:08,271 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev5
+2024-11-10 18:59:08,271 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-11-10-18-59-08-mpf-YogEr.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\git\\pinball-at-nx\\source\\mpf-conda\\logs\\2024-11-10-18-59-08-mpf-YogEr.log'}
+2024-11-10 18:59:08,271 : INFO : Machine : MPF path: C:\Users\eliri\anaconda3\envs\mpf\Lib\site-packages\mpf
+2024-11-10 18:59:08,271 : INFO : Machine : Machine path: C:\git\pinball-at-nx\source\mpf-conda
+2024-11-10 18:59:08,271 : INFO : Machine : Platform: win32
+2024-11-10 18:59:08,271 : INFO : Machine : Python executable location: C:\Users\eliri\anaconda3\envs\mpf\python.exe
+2024-11-10 18:59:08,271 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2024-11-10 18:59:08,273 : INFO : Machine : Initializing MPF...
+2024-11-10 18:59:08,429 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,442 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,442 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,442 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,442 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.7', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,525 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,525 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,525 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,525 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,525 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,525 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\git\\pinball-at-nx\\source\\mpf-conda\\logs\\2024-11-10-18-59-08-mpf-YogEr.log', 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,525 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-11-10 18:59:08,539 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-11-10 18:59:08,544 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-11-10 18:59:08,547 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-11-10 18:59:08,548 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,548 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,548 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,548 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,548 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2024-11-10 18:59:08,548 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-11-10 18:59:08,558 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-11-10 18:59:08,558 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-11-10 18:59:08,559 : INFO : Mode.attract : Started. Priority: 10
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-11-10 18:59:08,559 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-11-10 18:59:08,566 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2024-11-10 18:59:21,434 : INFO : BcpServer : New client connected.

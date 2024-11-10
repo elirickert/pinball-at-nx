@@ -1,0 +1,52 @@
+2024-11-10 16:26:39,532 : INFO : root : Loading config.
+2024-11-10 16:26:39,539 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-10 16:26:39,540 : WARNING : ConfigProcessor : Config file in cache changed: C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml
+2024-11-10 16:26:39,540 : INFO : ConfigProcessor : Loading config from file C:\Users\eliri\anaconda3\Lib\site-packages\mpf\mpfconfig.yaml.
+2024-11-10 16:26:39,546 : INFO : ConfigProcessor : Loading config: C:\Users\eliri\anaconda3\Lib\site-packages\mpf\mpfconfig.yaml
+2024-11-10 16:26:39,547 : INFO : ConfigProcessor : Loading config from file C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml.
+2024-11-10 16:26:39,556 : INFO : ConfigProcessor : Loading config: C:\git\pinball-at-nx\source\mpf-conda\config\config.yaml
+2024-11-10 16:26:39,557 : INFO : ConfigProcessor : Config file cache created: C:\Users\eliri\AppData\Local\Temp\832545c8267d39f841337814b695fcbf.mpf_cache
+2024-11-10 16:26:39,612 : INFO : ConfigProcessor : Loading config from cache: C:\Users\eliri\AppData\Local\Temp\752f721450cdb51a7adcb1ccc9eded7a.mpf_cache
+2024-11-10 16:26:39,616 : INFO : ConfigProcessor : Loading config from cache: C:\Users\eliri\AppData\Local\Temp\d7fa13d75974d3198a20ad67f567c1d5.mpf_cache
+2024-11-10 16:26:39,626 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev5
+2024-11-10 16:26:39,627 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-11-10-16-26-39-mpf-YogEr.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\git\\pinball-at-nx\\source\\mpf-conda\\logs\\2024-11-10-16-26-39-mpf-YogEr.log'}
+2024-11-10 16:26:39,627 : INFO : Machine : MPF path: C:\Users\eliri\anaconda3\Lib\site-packages\mpf
+2024-11-10 16:26:39,627 : INFO : Machine : Machine path: C:\git\pinball-at-nx\source\mpf-conda
+2024-11-10 16:26:39,627 : INFO : Machine : Platform: win32
+2024-11-10 16:26:39,627 : INFO : Machine : Python executable location: C:\Users\eliri\anaconda3\python.exe
+2024-11-10 16:26:39,627 : INFO : Machine : Python version: 3.12.7 (64-bit)
+2024-11-10 16:26:39,628 : INFO : Machine : Initializing MPF...
+2024-11-10 16:26:39,767 : INFO : OPP : Connecting to /dev/ttyACM0 at 115200bps
+2024-11-10 16:26:39,768 : INFO : Machine : Shutting down...
+2024-11-10 16:26:39,768 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-11-10 16:26:39,768 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\machine.py", line 686, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\machine.py", line 248, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\machine.py", line 244, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\machine.py", line 334, in _initialize_platforms
+    result.result()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\platforms\opp\opp.py", line 107, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\platforms\opp\opp.py", line 312, in _connect_to_hardware
+    await comm.connect()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\platforms\base_serial_communicator.py", line 47, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\platforms\base_serial_communicator.py", line 56, in _connect_to_hardware
+    self.reader, self.writer = await connector
+                               ^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\mpf\core\clock.py", line 151, in open_serial_connection
+    transport, _ = await create_serial_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\serial_asyncio\__init__.py", line 448, in create_serial_connection
+    serial_instance = serial.serial_for_url(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "C:\Users\eliri\anaconda3\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port '/dev/ttyACM0': FileNotFoundError(2, 'The system cannot find the path specified.', None, 3)
+2024-11-10 16:27:03,340 : INFO : root : MPF run loop ended.

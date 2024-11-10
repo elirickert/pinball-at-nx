@@ -1,0 +1,21 @@
+2024-11-10 19:57:20,721 : kivy : Config: Older configuration version detected (0 instead of 27)
+2024-11-10 19:57:20,722 : kivy : Config: Upgrading configuration in progress.
+2024-11-10 19:57:20,725 : kivy : deps: Successfully imported "kivy_deps.gstreamer" 0.3.3
+2024-11-10 19:57:20,726 : kivy : deps: Successfully imported "kivy_deps.angle" 0.3.3
+2024-11-10 19:57:20,726 : kivy : deps: Successfully imported "kivy_deps.glew" 0.3.1
+2024-11-10 19:57:20,726 : kivy : deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2024-11-10 19:57:20,726 : kivy : Kivy: v2.2.1
+2024-11-10 19:57:20,727 : kivy : Kivy: Installed at "C:\Users\eliri\anaconda3\envs\mpf\lib\site-packages\kivy\__init__.py"
+2024-11-10 19:57:20,727 : kivy : Python: v3.9.20 (main, Oct  3 2024, 07:38:01) [MSC v.1929 64 bit (AMD64)]
+2024-11-10 19:57:20,727 : kivy : Python: Interpreter at "C:\Users\eliri\anaconda3\envs\mpf\python.exe"
+2024-11-10 19:57:20,777 : kivy : Factory: 190 symbols loaded
+2024-11-10 19:57:20,997 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.5.1
+2024-11-10 19:57:20,998 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2024-11-10 19:57:21,379 : kivy : VideoGstplayer: Using Gstreamer 1.18.5.0
+2024-11-10 19:57:21,387 : kivy : Video: Provider: gstplayer
+2024-11-10 19:57:21,493 : root : Loading MPF-MC controller
+2024-11-10 19:57:21,530 : ConfigProcessor : Config spec file cache created: C:\Users\eliri\AppData\Local\Temp\config_spec.mpf_cache
+2024-11-10 19:57:21,531 : YamlMultifileConfigLoader : Machine config file #1: config
+2024-11-10 19:57:21,531 : ConfigProcessor : Loading config from file C:\Users\eliri\anaconda3\envs\mpf\lib\site-packages\mpfmc\mcconfig.yaml.
+2024-11-10 19:57:21,537 : ConfigProcessor : Loading config: C:\Users\eliri\anaconda3\envs\mpf\lib\site-packages\mpfmc\mcconfig.yaml
+2024-11-10 19:57:21,537 : ConfigProcessor : Loading config from file C:\git\pinball-at-nx\source\mpf-conda\config\config.

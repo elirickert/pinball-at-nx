@@ -5,10 +5,10 @@ Code and Design Documentation for Pinball machines built by fun people working @
 Please refer to the [github-page](https://elirickert.github.io/pinball-at-nx/) for more information. Contribution via PR's in docs-directory. This Repository is set up to facilitate simple documentation using [Obsidian](https://obsidian.md/).
 
 ## Contribution
-Code is stored under `_Personal/Projekte/pinball-at-nx/source`. 
 
 ### MPF-Conda
 This project requires a specific Python environment. Follow the instructions below to set up the Anaconda environment with all necessary dependencies. 
+
 #### Prerequisites 
 The following software needs to be installed on your system:
 ##### Anaconda or Miniconda
@@ -23,6 +23,7 @@ Later when using mpf mc as well..
 	- ~~`C:\gstreamer\1.0\msvc_x86_64\bin`~~ 
 	- 
 - ~~run `gst-launch-1.0 --version` in a new terminal window to check installation~~
+
 #### Setup Instructions 
 ```shell
 # Clone the Repository

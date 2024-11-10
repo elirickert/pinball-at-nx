@@ -1,0 +1,34 @@
+2024-11-08 16:14:11,912 : INFO : root : Loading config.
+2024-11-08 16:14:11,914 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-08 16:14:11,917 : INFO : ConfigProcessor : Loading config from cache: /tmp/8277ba0a89d3947d45888792b99f77df.mpf_cache
+2024-11-08 16:14:11,944 : INFO : ConfigProcessor : Loading config from cache: /tmp/743a3f3f7382b6c96be718b356800cd6.mpf_cache
+2024-11-08 16:14:11,946 : INFO : ConfigProcessor : Loading config from cache: /tmp/3c863f54ae09719ee7fb37a66497cafd.mpf_cache
+2024-11-08 16:14:11,947 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev5
+2024-11-08 16:14:11,947 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-11-08-16-14-11-mpf-45c19d8ede86.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/mpf/logs/2024-11-08-16-14-11-mpf-45c19d8ede86.log'}
+2024-11-08 16:14:11,947 : INFO : Machine : MPF path: /usr/local/lib/python3.10/site-packages/mpf
+2024-11-08 16:14:11,947 : INFO : Machine : Machine path: /mpf
+2024-11-08 16:14:11,947 : INFO : Machine : Platform: linux
+2024-11-08 16:14:11,947 : INFO : Machine : Python executable location: /usr/local/bin/python3.10
+2024-11-08 16:14:11,947 : INFO : Machine : Python version: 3.10.15 (64-bit)
+2024-11-08 16:14:11,949 : INFO : Machine : Initializing MPF...
+2024-11-08 16:14:11,976 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,985 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,985 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,985 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev5, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,985 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.10.15', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,987 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,987 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,987 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '5.15.153.1-microsoft-standard-WSL2', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,987 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP Fri Mar 29 23:14:13 UTC 2024', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,987 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,987 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/mpf/logs/2024-11-08-16-14-11-mpf-45c19d8ede86.log', 'prev_value': None, 'change': True}
+2024-11-08 16:14:11,987 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-11-08 16:14:11,993 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-11-08 16:14:11,993 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-11-08 16:14:11,994 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-11-08 16:15:00,889 : INFO : Machine : Starting the main run loop with active modes: []
+2024-11-08 16:15:00,889 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2024-11-08 16:15:00,889 : INFO : Machine : Shutting down...
+2024-11-08 16:15:00,889 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-11-08 16:15:01,048 : ERROR : root : Received second SIGINT. Will exit ungracefully!
+NoneType: None

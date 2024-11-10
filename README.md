@@ -35,7 +35,6 @@ pip install -r requirements.txt
 ```
 
 #### Run the application
-Mpf itself
 ```shell
 # mpf itself
 mpf
